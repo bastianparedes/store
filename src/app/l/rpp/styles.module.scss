@@ -1,0 +1,39 @@
+.container form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.container button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: #45a049;
+}
+
+.container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  flex: 1;
+}

@@ -1,0 +1,63 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container h1 {
+  color: #333;
+}
+
+.container .productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container .productItem {
+  width: 48%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.container h3 {
+  color: #007bff;
+}
+
+.container p {
+  color: #555;
+}
+
+.container img {
+  max-width: 100%;
+  max-height: 15rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.formRating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+
+  .containerQuestion {
+    margin-bottom: 1rem;
+    width: 80%;
+  }
+
+  .comment {
+    width: 100%;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  .stars {
+
+  }
+}

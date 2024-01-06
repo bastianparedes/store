@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h1>
+      Confirmación de pago
+    </h1>
+    <h2>
+      Detalles de la orden
+    </h2>
+    <p>
+      <strong>
+        Orden de compra:
+      </strong>
+       
+      id-buy-1
+    </p>
+    <p>
+      <strong>
+        Cantidad pagada:
+      </strong>
+       
+      10000
+    </p>
+    <p>
+      <strong>
+        Fecha de compra:
+      </strong>
+       
+      10/12/2023
+    </p>
+    <p>
+      <strong>
+        Email del comprador:
+      </strong>
+       
+      buyer@test.com
+    </p>
+    <p>
+      <strong>
+        Email del vendedor:
+      </strong>
+       
+      seller@test.com
+    </p>
+    <p
+      style="align-items: center; display: flex;"
+    >
+      <strong>
+        Evalúa al vendedor:
+      </strong>
+      <span
+        style="color: gray; cursor: pointer; font-size: 2rem;"
+      >
+        ★
+      </span>
+      <span
+        style="color: gray; cursor: pointer; font-size: 2rem;"
+      >
+        ★
+      </span>
+      <span
+        style="color: gray; cursor: pointer; font-size: 2rem;"
+      >
+        ★
+      </span>
+      <span
+        style="color: gray; cursor: pointer; font-size: 2rem;"
+      >
+        ★
+      </span>
+      <span
+        style="color: gray; cursor: pointer; font-size: 2rem;"
+      >
+        ★
+      </span>
+    </p>
+    <p>
+      <strong>
+        SKU del producto:
+      </strong>
+       
+      1
+    </p>
+    <p>
+      <strong>
+        Nombre del producto:
+      </strong>
+       
+      name
+    </p>
+    <p>
+      <strong>
+        Descripción del producto:
+      </strong>
+       
+      description
+    </p>
+    <p>
+      <strong>
+        Imagen del producto:
+      </strong>
+    </p>
+    <img
+      alt="name"
+      src="/api/image/1"
+      style="max-width: 300px;"
+    />
+  </div>
+</div>
+`;

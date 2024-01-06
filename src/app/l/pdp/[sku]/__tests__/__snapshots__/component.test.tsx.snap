@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="product"
+    >
+      <div
+        class="imageContainer"
+      >
+        <img
+          alt="name"
+          src="/api/image/1"
+        />
+      </div>
+      <div
+        class="productInfo"
+      >
+        <h1>
+          name
+        </h1>
+        <p>
+          description
+        </p>
+        <p>
+          SKU: 
+          1
+        </p>
+        <p>
+          Cantidad disponible: 
+          10
+        </p>
+        <p>
+          Precio: $
+          1000
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

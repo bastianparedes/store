@@ -1,0 +1,15 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "BAtester",
+      "Group": "Servers",
+      "Host": "database",
+      "Port": 5432,
+      "MaintenanceDB": "postgres",
+      "Username": "postgres",
+      "SSLMode": "prefer",
+      "SavePassword": true,
+      "Role": "postgres"
+    }
+  }
+}

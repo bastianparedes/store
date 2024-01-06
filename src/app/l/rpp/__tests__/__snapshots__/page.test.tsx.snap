@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page renders Page component 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <form>
+      <label
+        for="name"
+      >
+        Nombre del producto:
+        <input
+          id="name"
+          name="name"
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        for="description"
+      >
+        Descripción:
+        <input
+          id="description"
+          name="description"
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        for="quantity"
+      >
+        Cantidad disponible:
+        <input
+          id="quantity"
+          max="100"
+          min="0"
+          name="quantity"
+          type="number"
+          value="1"
+        />
+      </label>
+      <label
+        for="price"
+      >
+        Precio:
+        <input
+          id="price"
+          max="999999"
+          min="0"
+          name="price"
+          type="number"
+          value="1000"
+        />
+      </label>
+      <label
+        for="image"
+      >
+        Imagen:
+        <input
+          id="image"
+          name="picture"
+          type="file"
+        />
+      </label>
+      <button
+        type="submit"
+      >
+        Enviar
+      </button>
+    </form>
+  </div>
+</div>
+`;

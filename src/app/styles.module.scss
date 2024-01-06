@@ -1,0 +1,27 @@
+/* Archivo: LandingPage.module.css */
+.container {
+  text-align: center;
+  margin: 50px;
+}
+
+.container h1 {
+  color: #333;
+}
+
+.container p {
+  color: #666;
+}
+
+.container button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Estilos específicos para el botón */
+.container .button {
+  /* Puedes agregar estilos específicos para el botón aquí si es necesario */
+}
